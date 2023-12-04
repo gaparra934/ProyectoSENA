@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product {
+  border: 20px solid #ccc;
+  padding: 10px;
+  margin: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 40%;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.product h3 {
+  font-family: 'Lucida Bright', sans-serif;
+  font-size: 26px;
+  color: #770707;
+}
+
+.product p {
+  font-family: 'Perpetua', serif;
+  font-size: 16px;
+  color: #626362;
+  text-align: center;
+}
+
+.product button {
+  width: 20%;
+  padding: 5px;
+  background-color: #109dfe;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product h2 {
+  font-family: 'Lucida Bright', sans-serif;
+  font-size: 30px;
+  color: #000;
+}
